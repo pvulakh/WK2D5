@@ -67,7 +67,7 @@ describe LinkedList do
 
   describe "#update" do
     it "updates nodes" do
-      empty_list.append(:first, 1)
+      empty_list.append(:first, 1 )
       empty_list.update(:first, 2)
       expect(empty_list.first.val).to be 2
     end
